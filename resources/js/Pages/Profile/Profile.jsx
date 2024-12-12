@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, usePage } from "@inertiajs/react";
-import NavbarTripin from "@/Components/navbarTripin";
+import NavbarTripin from "@/Components/NavbarTripin";
 import ModalComponent from "@/Components/ModalComponent";
 import { ToastComponent } from "@/Components/ToastComponent";
 
