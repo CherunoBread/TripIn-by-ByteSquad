@@ -2,7 +2,7 @@ import { useLayoutEffect, useEffect, useState } from "react";
 import { BellIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 import CarouselDashboard from "@/Components/CarouselDashboard";
 import CardComponent from "@/Components/CardComponent";
-import NavbarTripin from "@/Components/navbarTripin";
+import NavbarTripin from "@/Components/NavbarTripin";
 
 const Home = ({ credit, username, user_id, booking, notification_status }) => {
     const [isTripAvailable, setIsTripsAvailable] = useState(false);
