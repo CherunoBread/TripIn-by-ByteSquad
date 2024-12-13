@@ -10,4 +10,12 @@ export default defineConfig({
         }),
         react(),
     ],
+    server: {
+        https: true, // Enable HTTPS for the dev server if needed
+    },
+    build: {
+        // Ensure asset paths are correct
+        outDir: 'public/build',
+    },
+    base: process.env.APP_URL || '/', // Use APP_URL from the environment for asset generation
 });
